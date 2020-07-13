@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/opensans-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/opensans-bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+
+.clr:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Open Sans;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+
+.idx-logo {
+    margin: 52px 122px 25px 122px;
+}
+
+.menu-txt {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.menu-select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-select-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 345px;
+    height: 86px;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.menu-select-item:active {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.pin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.idx-logo-pin {
+    margin: 90px 122px 57px 122px;
+}
+
+.pin-txt,
+.pin-txt-red {
+    width: 324px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.pin-txt {
+    margin-bottom: 32px;
+}
+
+.pin-txt-red {
+    font-weight: bold;
+    color: #F44F4F;
+}
+
+.pin-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pin-form-pass,
+.pin-form-btn {
+    width: 337px;
+    height: 50px;
+    border: 1px solid #979797;
+    border-radius: 50px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.pin-form-btn {
+    font-family: Open Sans;
+    width: 343px;
+    background: #F44F4F;
+    color: #FFFFFF;
+}
+
+.pin-form-btn:active {
+    background: #FA7B7B;
+}
+
+.autofill-menu-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.autofill-menu-txt {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: -0.408px;
+    color: #979797;
+    width: 345px;
+    margin-bottom: 15px;
+}
+
+.autofill-form {
+    padding: 1px 20px;
+}
+
+.autofill-form-logo {
+    margin: 29px 78px 26px 79px;
+}
+
+.autofill-form-txt {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.autofill-form-btn,
+.autofill-form-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 328px;
+    height: 47px;
+    background: #000000;
+    border-radius: 3px;
+    border: 0;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+.autofill-form-btn {
+    background: #000000;
+}
+
+.autofill-form-btn:active {
+    background: #979797;
+}
+
+.autofill-form-send {
+    background: #979797;
+}
+
+.autofill-form-send:active {
+    background: #000000;
+}
+
+.autofill-form-green {
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #008528;
+    margin-bottom: 13px;
+}
+
+.autofill-form-item {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #979797;
+}
+
+.autofill-form-item-txt {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.autofill-form-item-input {
+    display: flex;
+    width: 335px;
+    height: 40px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding-left: 14px;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+input[type="text"]::placeholder {
+    color: #979797;
+}
+
+.last {
+    margin-bottom: 26px;
+}
+
+.small {
+    width: 49px;
+    padding: 0;
+    text-align: center;
+}
+
+.medium {
+    width: 258px;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+}
+
+.small,
+.smalltxt {
+    float: left;
+    margin-right: 13px;
+}
+
+.smalltxt {
+    padding-top: 8px
+}
+
+.autofill-form-checkbox {
+    display: flex;
+    height: 14px;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.checkbox {
+    background: #D8D8D8;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    margin-right: 9px;
+}
+
+.checkbox-txt {
+    display: flex;
+    align-items: center;
+    height: 14px;
+    margin-bottom: 15px;
+}
+
+.checkbox-link {
+    font-weight: bold;
+    color: #F44F4F;
+}
+
+.autofill-pin {
+    filter: brightness(75%);
+    background: rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.autofill-pin-message,
+.autofill-ok {
+    position: fixed;
+    width: 303px;
+    height: 303px;
+    left: 0;
+    right: 0;
+    top: 134px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 30px 24px;
+    box-sizing: border-box;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.autofill-pin-message-txt {
+    width: 255px;
+    height: 44px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-bottom: 37px;
+}
+
+.autofill-ok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.autofill-ok-txt {
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
