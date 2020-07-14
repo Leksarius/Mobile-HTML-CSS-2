@@ -367,3 +367,139 @@ input[type="text"]::placeholder {
     letter-spacing: -0.408px;
     color: #000000;
 }
+
+.onetimepass-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.onetimepass-logo {
+    margin: 140px 122px 62px 122px;
+}
+
+.onetimepass-menu-btn,
+.onetimepass-takepass-pass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 343px;
+    height: 50px;
+    background: #FF7373;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #ffffff;
+    letter-spacing: -0.408px;
+}
+
+.onetimepass-menu-btn:active {
+    background: #F44F4F;
+}
+
+.greenbank-logo {
+    margin: 96px 0 45px 0;
+}
+
+.onetimepass-txt {
+    display: flex;
+    margin-bottom: 11px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.onetimepass-input {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 319px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.onetimepass-btn {
+    width: 319px;
+    height: 47px;
+    background: #DADADA;
+    border-radius: 3px;
+    border: 0;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.onetimepass-btn:active {
+    background: #31C25C;
+}
+
+.active {
+    background: #008528;
+}
+
+.onetimepass-phone-txt {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #979797;
+    margin-bottom: 11px;
+}
+
+.request {
+    width: 148px;
+}
+
+.onetimepass-takepass-logo {
+    margin: 140px 122px 71px 122px;
+}
+
+.onetimepass-takepass-txt, 
+.onetimepass-takepass-txtred {
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.onetimepass-takepass-txtred {
+    font-weight: bold;
+    color: #F44F4F;
+    margin-bottom: 40px;
+}
+
+.onetimepass-btn-back {
+    display: flex;
+    align-items: center;
+    height: 47px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #008528;
+    text-decoration: none;
+    margin: 0 65px 0 60px;
+}
+
+.onetimepass-takepass-pass {
+    background: #ffffff;
+    border: 1px solid #979797;
+    color: #000000;
+}
